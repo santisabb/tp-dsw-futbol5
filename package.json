@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "directorio para trabajo practico de desarrollo de software",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/santisabb/tp-dsw-futbol5/issues"
   },
-  "homepage": "https://github.com/santisabb/tp-dsw-futbol5#readme"
+  "homepage": "https://github.com/santisabb/tp-dsw-futbol5#readme",
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "picocolors": "1.0.0",
+    "zod": "3.22.2"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  }
 }
