@@ -22,6 +22,6 @@ export function validateReceipt(input) {
     return receiptSchema.safeParse(input)
 }
 
-export function validateParcialReceipt(input) {
+export function validatePartialReceipt(input) {
     return receiptSchema.partial().safeParse(input)
 }

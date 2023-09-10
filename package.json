@@ -2,10 +2,11 @@
   "name": "tp-dsw-futbol5",
   "version": "1.0.0",
   "description": "directorio para trabajo practico de desarrollo de software",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:1": "nodemon ./tp-dsw-futbol5/app.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "zod": "3.22.2"
   },
   "devDependencies": {
+    "nodemon": "3.0.1",
     "standard": "17.1.0"
   }
 }
