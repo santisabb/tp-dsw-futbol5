@@ -1,7 +1,6 @@
 import { randomUUID } from 'node:crypto'
-import { readJSON } from '../../utils.js'
+import grills from '../../grill.json' assert { type: 'json'}
 
-const grills = readJSON('../grill.json')
 
 export class GrillModel {
     static async getAll( {grillStatus }) {

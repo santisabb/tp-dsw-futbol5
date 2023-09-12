@@ -1,7 +1,6 @@
 import { randomUUID } from 'node:crypto'
-import { readJSON } from '../../utils.js'
+import fields from '../../field.json' assert { type: 'json'}
 
-const fields = readJSON('../field.json')
 
 export class FieldModel {
     static async getAll( { fieldStatus }) {

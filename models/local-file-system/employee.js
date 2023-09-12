@@ -1,7 +1,5 @@
 import { randomUUID } from 'node:crypto'
-import { readJSON } from '../../utils.js'
-
-const employees = readJSON('../employee.json')
+import employees from '../../employee.json' assert { type: 'json'}
 
 export class EmployeeModel {
     static async getAll( { nameAndSurname }) {

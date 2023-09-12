@@ -1,7 +1,6 @@
 import { randomUUID } from 'node:crypto'
-import { readJSON } from '../../utils.js'
+import receipts from '../../receipt.json' assert { type: 'json'}
 
-const receipts = readJSON('../receipt.json')
 
 export class ReceiptModel {
     static async getAll( {type }) {

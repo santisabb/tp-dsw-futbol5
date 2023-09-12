@@ -4,7 +4,9 @@ const fieldSchema = object({
     fieldType: number({
         required_error: 'Field type is required',
         invalid_type_error: 'Field type is invalid, must be a number'
-    }).int().positive().minValue(5).maxValue(11,{
+    }).int().positive().gte(5, {
+        invalid_type_error: 'Field type is invalid, must be a number bigger than 5'
+    }).lte(11,{
         invalid_type_error: 'Field type must be a number beetween 5 and 11'
     }),
     fieldDimensions: string({
