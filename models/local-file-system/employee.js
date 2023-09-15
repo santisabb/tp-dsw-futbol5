@@ -3,7 +3,7 @@ import employees from '../../employee.json' assert { type: 'json'}
 
 export class EmployeeModel {
     static async getAll( { nameAndSurname }) {
-        if (cuil) {
+        if (employees.cuil) {
             return employees.filter(
                 employee => employee.genre.some(n => n.toLowerCase() === nameAndSurname.toLowerCase())
             )
