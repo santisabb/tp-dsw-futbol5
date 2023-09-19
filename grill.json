@@ -1,4 +1,5 @@
 [{
     "idGrill": 1,
+    "dimentions": "3x8",
     "grillStatus": true
 }]

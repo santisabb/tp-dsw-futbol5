@@ -1,0 +1,14 @@
+###CREAR USUARIO
+POST http://localhost:8081/users
+Content-Type: application/json
+
+{
+    "userDNI": "40619651",
+    "userFullName": "Carpo Napolitano",
+    "userEmail": "papposblues@gmail.com",
+    "userPhoneNumber": "3407930734",
+    "userTotalReserves": 7
+}
+
+###RECUPERAR TODOS LOS USUARIOS
+GET http://localhost:8081/users

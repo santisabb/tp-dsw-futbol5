@@ -10,8 +10,7 @@ const receiptSchema = object({
     type: string({
         required_error: 'Receipt type is required',
     }).length(1,{
-        invalid_type_error: 'Receipt type must be just a LETTER, A OR B',
-    }).includes('A').includes('B'),
+        invalid_type_error: 'Receipt type must be just a LETTER, A OR B'}),
     registeredName: string({
         required_error: 'Registration name is required',
         invalid_type_error: 'Registration name must be a string',
