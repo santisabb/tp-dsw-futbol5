@@ -12,3 +12,9 @@ Content-Type: application/json
 
 ###RECUPERAR TODOS LOS USUARIOS
 GET http://localhost:8081/users
+###RECUPERAR UN USUARIO
+GET http://localhost:8081/user/
+###MODIFICAR UN USUARIO
+PATCH http://localhost:8081/user/
+###BORRAR UN USUARIO
+DELETE http://localhost:8081/user/

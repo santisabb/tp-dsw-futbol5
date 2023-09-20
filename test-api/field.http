@@ -1,0 +1,22 @@
+###RECUPERA TODAS LAS CANCHAS
+GET http://localhost:8081/fields
+###CREAR UNA CANCHA
+POST http://localhost:8081/fields
+Content-Type: application/json
+
+{
+    "fieldType": 11,
+    "fieldStatus": true,
+    "fieldDimensions": "15x25" 
+}
+###RECUPERAR UNA CANCHA
+GET http://localhost:8081/field/5262ae7c-ee29-4f91-ae41-d2119c8c0eb9
+###ELIMINAR UNA CANCHA
+DELETE http://localhost:8081/field/5262ae7c-ee29-4f91-ae41-d2119c8c0eb9
+###MODIFICAR UNA CANCHA
+PATCH http://localhost:8081/field/5262ae7c-ee29-4f91-ae41-d2119c8c0eb9
+Content-Type: application/json
+
+{
+    "fieldType": 6
+}

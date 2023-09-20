@@ -9,3 +9,9 @@ Content-Type: application/json
     "type": "B",
     "registeredName": "La puta de tu vieja"
 }
+###RECUPERAR UNA FACTURA 
+GET http://localhost:8081/receipt/00b4c41d-3780-4641-814f-14d2a86b4cf1
+###MODIFICAR UNA FACTURA
+PATCH http://localhost:8081/receipt/
+###BORRAR UNA FACTURA
+DELETE http://localhost:8081/receipt/

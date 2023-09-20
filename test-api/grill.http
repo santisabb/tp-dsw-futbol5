@@ -8,3 +8,9 @@ Content-Type: application/json
     "dimentions": "3.5x6",
     "grillStatus": true
 }
+###RECUPERAR UNA PARRILLA
+GET http://localhost:8081/grill/
+###MODIFICAR UNA PARRILLA   
+PATCH http://localhost:8081/grill/
+###BORRAR UNA PARRILLA
+DELETE http://localhost:8081/grill/

@@ -1,5 +1,16 @@
 [{
-    "id": 1,
+    "id":"w6xjzw3KHOmVXK2ouoR3uXqO",
     "cuil": "20-31948224-7",
     "nameAndSurname": "Santiago Sabbioni"
-}]
+},
+{
+    "id": "e6048200-5b19-48fc-a329-b051287ff1fd",
+    "cuil": "20-26201714-4",
+    "nameAndSurname": "Enrique Szewach"
+},
+{
+    "id": "18c37edb-b351-4039-8aab-53797af74e60",
+    "cuil": "20-25811274-4",
+    "nameAndSurname": "Javier Martinez"
+}
+]

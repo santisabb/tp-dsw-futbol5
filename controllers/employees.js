@@ -28,7 +28,7 @@ export class EmployeeController {
     }
 
     static async delete(req, res) {
-        const { id } = req.params
+        const id = req.params.id
 
         const result = await EmployeeModel.delete({ id })
 
