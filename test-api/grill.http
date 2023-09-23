@@ -1,0 +1,20 @@
+###OBTENER TODAS LAS PARRILLAS
+GET http://localhost:8080/grills
+###CREAR UNA PARRILA
+POST http://localhost:8080/grills
+Content-Type: application/json
+
+{
+
+}
+###OBTENER UNA PARRILA
+GET http://localhost:8080/grill/
+###MODIFICAR UNA PARRILLA
+PATCH http://localhost:8080/grill/
+Content-Type: application/json
+
+{
+    
+}
+###ELIMINAR UNA PARRILLA
+DELETE http://localhost:8080/grill/
