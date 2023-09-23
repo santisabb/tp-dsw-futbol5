@@ -40,10 +40,11 @@ export class EmployeeModel {
     }
 
     static async delete({ id }) {
-        const employeeIndex = employees.findIndex(employee => employee.id === id)
-        if (employeeIndex === -1) return false
-
-        employees.splice(employeeIndex, 1)
-        return true
+        const employeeIndex = employees.findIndex((employee) => employee.id === id)
+        if (employeeIndex !== -1) {
+            const deletedEmployee = employees[employeeIndex]
+            employees.splice(employeeIndex, 1)
+            return deletedEmployee
+        }
     }
 }
