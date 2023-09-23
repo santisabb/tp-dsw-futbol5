@@ -2,6 +2,11 @@
 GET http://localhost:8080/users
 ###CREAR UN USUARIO
 POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    
+}
 ###OBTENER UN USUARIO
 GET http://localhost:8080/user/
 ###MODIFICAR UN USUSARIO
