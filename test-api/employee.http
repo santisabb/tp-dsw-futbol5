@@ -19,4 +19,4 @@ Content-Type: application/json
     "nameAndSurname": "Javier Milei"
 }
 ###BORRAR EMPLEADO
-DELETE http://localhost:8081/employees/18c37edb-b351-4039-8aab-53797af74e60
+DELETE http://localhost:8081/employees/e6048200-5b19-48fc-a329-b051287ff1fd
